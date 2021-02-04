@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098943D725CB0F980088BE7A /* SolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098943D625CB0F980088BE7A /* SolutionTests.swift */; };
+		F152AF6F25CB0AE400AD25C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152AF6E25CB0AE400AD25C2 /* AppDelegate.swift */; };
+		F152AF7125CB0AE400AD25C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152AF7025CB0AE400AD25C2 /* SceneDelegate.swift */; };
+		F152AF7325CB0AE400AD25C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152AF7225CB0AE400AD25C2 /* ViewController.swift */; };
+		F152AF7625CB0AE400AD25C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F152AF7425CB0AE400AD25C2 /* Main.storyboard */; };
+		F152AF7825CB0AE800AD25C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F152AF7725CB0AE800AD25C2 /* Assets.xcassets */; };
+		F152AF7B25CB0AE800AD25C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F152AF7925CB0AE800AD25C2 /* LaunchScreen.storyboard */; };
+		F152AFA425CB0AFB00AD25C2 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152AFA325CB0AFB00AD25C2 /* Solution.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F152AF8225CB0AE800AD25C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F152AF6325CB0AE400AD25C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F152AF6A25CB0AE400AD25C2;
+			remoteInfo = "LC_Longest-word-dictionary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		098943D625CB0F980088BE7A /* SolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTests.swift; sourceTree = "<group>"; };
+		F152AF6B25CB0AE400AD25C2 /* LC_Longest-word-dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LC_Longest-word-dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F152AF6E25CB0AE400AD25C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F152AF7025CB0AE400AD25C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F152AF7225CB0AE400AD25C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F152AF7525CB0AE400AD25C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F152AF7725CB0AE800AD25C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F152AF7A25CB0AE800AD25C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F152AF7C25CB0AE800AD25C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F152AF8125CB0AE800AD25C2 /* LC_Longest-word-dictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LC_Longest-word-dictionaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F152AF8725CB0AE800AD25C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F152AFA325CB0AFB00AD25C2 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F152AF6825CB0AE400AD25C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F152AF7E25CB0AE800AD25C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F152AF6225CB0AE400AD25C2 = {
+			isa = PBXGroup;
+			children = (
+				F152AF6D25CB0AE400AD25C2 /* LC_Longest-word-dictionary */,
+				F152AF8425CB0AE800AD25C2 /* LC_Longest-word-dictionaryTests */,
+				F152AF6C25CB0AE400AD25C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F152AF6C25CB0AE400AD25C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F152AF6B25CB0AE400AD25C2 /* LC_Longest-word-dictionary.app */,
+				F152AF8125CB0AE800AD25C2 /* LC_Longest-word-dictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F152AF6D25CB0AE400AD25C2 /* LC_Longest-word-dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F152AF6E25CB0AE400AD25C2 /* AppDelegate.swift */,
+				F152AF7025CB0AE400AD25C2 /* SceneDelegate.swift */,
+				F152AF7225CB0AE400AD25C2 /* ViewController.swift */,
+				F152AF7425CB0AE400AD25C2 /* Main.storyboard */,
+				F152AF7725CB0AE800AD25C2 /* Assets.xcassets */,
+				F152AF7925CB0AE800AD25C2 /* LaunchScreen.storyboard */,
+				F152AF7C25CB0AE800AD25C2 /* Info.plist */,
+				F152AFA325CB0AFB00AD25C2 /* Solution.swift */,
+			);
+			path = "LC_Longest-word-dictionary";
+			sourceTree = "<group>";
+		};
+		F152AF8425CB0AE800AD25C2 /* LC_Longest-word-dictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F152AF8725CB0AE800AD25C2 /* Info.plist */,
+				098943D625CB0F980088BE7A /* SolutionTests.swift */,
+			);
+			path = "LC_Longest-word-dictionaryTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F152AF6A25CB0AE400AD25C2 /* LC_Longest-word-dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F152AF9525CB0AE800AD25C2 /* Build configuration list for PBXNativeTarget "LC_Longest-word-dictionary" */;
+			buildPhases = (
+				F152AF6725CB0AE400AD25C2 /* Sources */,
+				F152AF6825CB0AE400AD25C2 /* Frameworks */,
+				F152AF6925CB0AE400AD25C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LC_Longest-word-dictionary";
+			productName = "LC_Longest-word-dictionary";
+			productReference = F152AF6B25CB0AE400AD25C2 /* LC_Longest-word-dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F152AF8025CB0AE800AD25C2 /* LC_Longest-word-dictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F152AF9825CB0AE800AD25C2 /* Build configuration list for PBXNativeTarget "LC_Longest-word-dictionaryTests" */;
+			buildPhases = (
+				F152AF7D25CB0AE800AD25C2 /* Sources */,
+				F152AF7E25CB0AE800AD25C2 /* Frameworks */,
+				F152AF7F25CB0AE800AD25C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F152AF8325CB0AE800AD25C2 /* PBXTargetDependency */,
+			);
+			name = "LC_Longest-word-dictionaryTests";
+			productName = "LC_Longest-word-dictionaryTests";
+			productReference = F152AF8125CB0AE800AD25C2 /* LC_Longest-word-dictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F152AF6325CB0AE400AD25C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F152AF6A25CB0AE400AD25C2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F152AF8025CB0AE800AD25C2 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1240;
+						TestTargetID = F152AF6A25CB0AE400AD25C2;
+					};
+				};
+			};
+			buildConfigurationList = F152AF6625CB0AE400AD25C2 /* Build configuration list for PBXProject "LC_Longest-word-dictionary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F152AF6225CB0AE400AD25C2;
+			productRefGroup = F152AF6C25CB0AE400AD25C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F152AF6A25CB0AE400AD25C2 /* LC_Longest-word-dictionary */,
+				F152AF8025CB0AE800AD25C2 /* LC_Longest-word-dictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F152AF6925CB0AE400AD25C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F152AF7B25CB0AE800AD25C2 /* LaunchScreen.storyboard in Resources */,
+				F152AF7825CB0AE800AD25C2 /* Assets.xcassets in Resources */,
+				F152AF7625CB0AE400AD25C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F152AF7F25CB0AE800AD25C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F152AF6725CB0AE400AD25C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F152AF7325CB0AE400AD25C2 /* ViewController.swift in Sources */,
+				F152AF6F25CB0AE400AD25C2 /* AppDelegate.swift in Sources */,
+				F152AFA425CB0AFB00AD25C2 /* Solution.swift in Sources */,
+				F152AF7125CB0AE400AD25C2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F152AF7D25CB0AE800AD25C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098943D725CB0F980088BE7A /* SolutionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F152AF8325CB0AE800AD25C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F152AF6A25CB0AE400AD25C2 /* LC_Longest-word-dictionary */;
+			targetProxy = F152AF8225CB0AE800AD25C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F152AF7425CB0AE400AD25C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F152AF7525CB0AE400AD25C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F152AF7925CB0AE800AD25C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F152AF7A25CB0AE800AD25C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F152AF9325CB0AE800AD25C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F152AF9425CB0AE800AD25C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F152AF9625CB0AE800AD25C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LC_Longest-word-dictionary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Longest-word-dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F152AF9725CB0AE800AD25C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LC_Longest-word-dictionary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Longest-word-dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F152AF9925CB0AE800AD25C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LC_Longest-word-dictionaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Longest-word-dictionaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LC_Longest-word-dictionary.app/LC_Longest-word-dictionary";
+			};
+			name = Debug;
+		};
+		F152AF9A25CB0AE800AD25C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LC_Longest-word-dictionaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Longest-word-dictionaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LC_Longest-word-dictionary.app/LC_Longest-word-dictionary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F152AF6625CB0AE400AD25C2 /* Build configuration list for PBXProject "LC_Longest-word-dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F152AF9325CB0AE800AD25C2 /* Debug */,
+				F152AF9425CB0AE800AD25C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F152AF9525CB0AE800AD25C2 /* Build configuration list for PBXNativeTarget "LC_Longest-word-dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F152AF9625CB0AE800AD25C2 /* Debug */,
+				F152AF9725CB0AE800AD25C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F152AF9825CB0AE800AD25C2 /* Build configuration list for PBXNativeTarget "LC_Longest-word-dictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F152AF9925CB0AE800AD25C2 /* Debug */,
+				F152AF9A25CB0AE800AD25C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F152AF6325CB0AE400AD25C2 /* Project object */;
+}
