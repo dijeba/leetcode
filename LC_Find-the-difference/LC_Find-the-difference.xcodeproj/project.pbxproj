@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1103BB425D05DB100EDBE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1103BB325D05DB100EDBE35 /* AppDelegate.swift */; };
+		F1103BB625D05DB100EDBE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1103BB525D05DB100EDBE35 /* SceneDelegate.swift */; };
+		F1103BB825D05DB100EDBE35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1103BB725D05DB100EDBE35 /* ViewController.swift */; };
+		F1103BBB25D05DB100EDBE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1103BB925D05DB100EDBE35 /* Main.storyboard */; };
+		F1103BBD25D05DB400EDBE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1103BBC25D05DB400EDBE35 /* Assets.xcassets */; };
+		F1103BC025D05DB400EDBE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1103BBE25D05DB400EDBE35 /* LaunchScreen.storyboard */; };
+		F1103BEB25D05DC500EDBE35 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1103BEA25D05DC500EDBE35 /* Solution.swift */; };
+		F1103BEF25D05E6C00EDBE35 /* SolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1103BEE25D05E6C00EDBE35 /* SolutionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1103BC725D05DB400EDBE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1103BA825D05DB100EDBE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1103BAF25D05DB100EDBE35;
+			remoteInfo = "LC_Find-the-difference";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1103BB025D05DB100EDBE35 /* LC_Find-the-difference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LC_Find-the-difference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1103BB325D05DB100EDBE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1103BB525D05DB100EDBE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1103BB725D05DB100EDBE35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1103BBA25D05DB100EDBE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1103BBC25D05DB400EDBE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1103BBF25D05DB400EDBE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1103BC125D05DB400EDBE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1103BC625D05DB400EDBE35 /* LC_Find-the-differenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LC_Find-the-differenceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1103BCC25D05DB400EDBE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1103BEA25D05DC500EDBE35 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		F1103BEE25D05E6C00EDBE35 /* SolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1103BAD25D05DB100EDBE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1103BC325D05DB400EDBE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1103BA725D05DB100EDBE35 = {
+			isa = PBXGroup;
+			children = (
+				F1103BB225D05DB100EDBE35 /* LC_Find-the-difference */,
+				F1103BC925D05DB400EDBE35 /* LC_Find-the-differenceTests */,
+				F1103BB125D05DB100EDBE35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1103BB125D05DB100EDBE35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1103BB025D05DB100EDBE35 /* LC_Find-the-difference.app */,
+				F1103BC625D05DB400EDBE35 /* LC_Find-the-differenceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1103BB225D05DB100EDBE35 /* LC_Find-the-difference */ = {
+			isa = PBXGroup;
+			children = (
+				F1103BB325D05DB100EDBE35 /* AppDelegate.swift */,
+				F1103BB525D05DB100EDBE35 /* SceneDelegate.swift */,
+				F1103BB725D05DB100EDBE35 /* ViewController.swift */,
+				F1103BB925D05DB100EDBE35 /* Main.storyboard */,
+				F1103BBC25D05DB400EDBE35 /* Assets.xcassets */,
+				F1103BBE25D05DB400EDBE35 /* LaunchScreen.storyboard */,
+				F1103BC125D05DB400EDBE35 /* Info.plist */,
+				F1103BEA25D05DC500EDBE35 /* Solution.swift */,
+			);
+			path = "LC_Find-the-difference";
+			sourceTree = "<group>";
+		};
+		F1103BC925D05DB400EDBE35 /* LC_Find-the-differenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1103BCC25D05DB400EDBE35 /* Info.plist */,
+				F1103BEE25D05E6C00EDBE35 /* SolutionTests.swift */,
+			);
+			path = "LC_Find-the-differenceTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1103BAF25D05DB100EDBE35 /* LC_Find-the-difference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1103BDA25D05DB400EDBE35 /* Build configuration list for PBXNativeTarget "LC_Find-the-difference" */;
+			buildPhases = (
+				F1103BAC25D05DB100EDBE35 /* Sources */,
+				F1103BAD25D05DB100EDBE35 /* Frameworks */,
+				F1103BAE25D05DB100EDBE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LC_Find-the-difference";
+			productName = "LC_Find-the-difference";
+			productReference = F1103BB025D05DB100EDBE35 /* LC_Find-the-difference.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1103BC525D05DB400EDBE35 /* LC_Find-the-differenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1103BDD25D05DB400EDBE35 /* Build configuration list for PBXNativeTarget "LC_Find-the-differenceTests" */;
+			buildPhases = (
+				F1103BC225D05DB400EDBE35 /* Sources */,
+				F1103BC325D05DB400EDBE35 /* Frameworks */,
+				F1103BC425D05DB400EDBE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1103BC825D05DB400EDBE35 /* PBXTargetDependency */,
+			);
+			name = "LC_Find-the-differenceTests";
+			productName = "LC_Find-the-differenceTests";
+			productReference = F1103BC625D05DB400EDBE35 /* LC_Find-the-differenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1103BA825D05DB100EDBE35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F1103BAF25D05DB100EDBE35 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F1103BC525D05DB400EDBE35 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+						TestTargetID = F1103BAF25D05DB100EDBE35;
+					};
+				};
+			};
+			buildConfigurationList = F1103BAB25D05DB100EDBE35 /* Build configuration list for PBXProject "LC_Find-the-difference" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1103BA725D05DB100EDBE35;
+			productRefGroup = F1103BB125D05DB100EDBE35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1103BAF25D05DB100EDBE35 /* LC_Find-the-difference */,
+				F1103BC525D05DB400EDBE35 /* LC_Find-the-differenceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1103BAE25D05DB100EDBE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1103BC025D05DB400EDBE35 /* LaunchScreen.storyboard in Resources */,
+				F1103BBD25D05DB400EDBE35 /* Assets.xcassets in Resources */,
+				F1103BBB25D05DB100EDBE35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1103BC425D05DB400EDBE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1103BAC25D05DB100EDBE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1103BB825D05DB100EDBE35 /* ViewController.swift in Sources */,
+				F1103BB425D05DB100EDBE35 /* AppDelegate.swift in Sources */,
+				F1103BEB25D05DC500EDBE35 /* Solution.swift in Sources */,
+				F1103BB625D05DB100EDBE35 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1103BC225D05DB400EDBE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1103BEF25D05E6C00EDBE35 /* SolutionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1103BC825D05DB400EDBE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1103BAF25D05DB100EDBE35 /* LC_Find-the-difference */;
+			targetProxy = F1103BC725D05DB400EDBE35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1103BB925D05DB100EDBE35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1103BBA25D05DB100EDBE35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1103BBE25D05DB400EDBE35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1103BBF25D05DB400EDBE35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1103BD825D05DB400EDBE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1103BD925D05DB400EDBE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1103BDB25D05DB400EDBE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LC_Find-the-difference/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Find-the-difference";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1103BDC25D05DB400EDBE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LC_Find-the-difference/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Find-the-difference";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1103BDE25D05DB400EDBE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LC_Find-the-differenceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Find-the-differenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LC_Find-the-difference.app/LC_Find-the-difference";
+			};
+			name = Debug;
+		};
+		F1103BDF25D05DB400EDBE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LC_Find-the-differenceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Find-the-differenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LC_Find-the-difference.app/LC_Find-the-difference";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1103BAB25D05DB100EDBE35 /* Build configuration list for PBXProject "LC_Find-the-difference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1103BD825D05DB400EDBE35 /* Debug */,
+				F1103BD925D05DB400EDBE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1103BDA25D05DB400EDBE35 /* Build configuration list for PBXNativeTarget "LC_Find-the-difference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1103BDB25D05DB400EDBE35 /* Debug */,
+				F1103BDC25D05DB400EDBE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1103BDD25D05DB400EDBE35 /* Build configuration list for PBXNativeTarget "LC_Find-the-differenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1103BDE25D05DB400EDBE35 /* Debug */,
+				F1103BDF25D05DB400EDBE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1103BA825D05DB100EDBE35 /* Project object */;
+}
