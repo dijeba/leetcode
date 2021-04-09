@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CC4E8348-CD47-492D-9179-D46A1EABE019"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71F8C271-B64F-4E69-9B7E-6CB22A88C61A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LC_Add-strings/Solution.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "addStrings(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "71F8C271-B64F-4E69-9B7E-6CB22A88C61A - 8458d9e6c305fa6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LC_Add_strings.Solution.addStrings(Swift.String, Swift.String) -&gt; Swift.String"
+                  moduleName = "LC_Add-strings"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diego/Downloads/LC_Add-strings/LC_Add-strings/Solution.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "2401">
+               </Location>
+               <Location
+                  uuid = "71F8C271-B64F-4E69-9B7E-6CB22A88C61A - a8755a0c0f201c77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Character) -&gt; Swift.String in LC_Add_strings.Solution.addStrings(Swift.String, Swift.String) -&gt; Swift.String"
+                  moduleName = "LC_Add-strings"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diego/Downloads/LC_Add-strings/LC_Add-strings/Solution.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
