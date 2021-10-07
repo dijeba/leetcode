@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2EF914B4-B92B-4E28-98DC-AAFB5A62B54C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9BF2ED9-5FCF-4C34-9CE3-067E00F990F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LC_Group-Anagrams/Solution.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "groupAnagrams2(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A4BD84D-47A1-4FF0-B764-B24B5C3B73A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LC_Group-Anagrams/Solution.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "groupAnagrams2(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9A4BD84D-47A1-4FF0-B764-B24B5C3B73A2 - 8dc290bb5f7b4016"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LC_Group_AnagramsTests.Solution.groupAnagrams(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
+                  moduleName = "LC_Group-AnagramsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diego/programming/training/LC_Group-Anagrams/LC_Group-Anagrams/Solution.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "831">
+               </Location>
+               <Location
+                  uuid = "9A4BD84D-47A1-4FF0-B764-B24B5C3B73A2 - 8dc290bb5f7b4037"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LC_Group_AnagramsTests.Solution.groupAnagrams(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
+                  moduleName = "LC_Group-AnagramsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diego/programming/training/LC_Group-Anagrams/LC_Group-Anagrams/Solution.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "697">
+               </Location>
+               <Location
+                  uuid = "9A4BD84D-47A1-4FF0-B764-B24B5C3B73A2 - 8dc290bb5f7b4037"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LC_Group_AnagramsTests.Solution.groupAnagrams(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
+                  moduleName = "LC_Group-AnagramsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diego/programming/training/LC_Group-Anagrams/LC_Group-Anagrams/Solution.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "712">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
