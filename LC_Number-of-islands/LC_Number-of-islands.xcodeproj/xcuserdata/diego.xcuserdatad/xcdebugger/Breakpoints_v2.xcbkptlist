@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1DD691BF-AEB0-4F9F-833D-5274CE3EBAC6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB8439B8-0CAB-461A-AD76-E10EB86D894F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LC_Number-of-islands/Solution.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "numIslands2(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB8439B8-0CAB-461A-AD76-E10EB86D894F - a3cdb64baf593927"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LC_Number_of_islandsTests.Solution.numIslands2(Swift.Array&lt;Swift.Array&lt;Swift.Character&gt;&gt;) -&gt; Swift.Int"
+                  moduleName = "LC_Number-of-islandsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diego/Downloads/LC_Number-of-islands/LC_Number-of-islands/Solution.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "3050">
+               </Location>
+               <Location
+                  uuid = "FB8439B8-0CAB-461A-AD76-E10EB86D894F - a3cdb64baf593906"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LC_Number_of_islandsTests.Solution.numIslands2(Swift.Array&lt;Swift.Array&lt;Swift.Character&gt;&gt;) -&gt; Swift.Int"
+                  moduleName = "LC_Number-of-islandsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diego/Downloads/LC_Number-of-islands/LC_Number-of-islands/Solution.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "2627">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
