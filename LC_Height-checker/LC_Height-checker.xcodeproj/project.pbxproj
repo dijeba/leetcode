@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F12324092792D5D600B3B0F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12324082792D5D600B3B0F4 /* main.swift */; };
+		F12324162792D63A00B3B0F4 /* LC_Height_checkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12324152792D63A00B3B0F4 /* LC_Height_checkerTests.swift */; };
+		F123241B2792D64400B3B0F4 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123241A2792D64400B3B0F4 /* Solution.swift */; };
+		F123241D2792D66300B3B0F4 /* SolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123241C2792D66300B3B0F4 /* SolutionTests.swift */; };
+		F123241E2792D68900B3B0F4 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123241A2792D64400B3B0F4 /* Solution.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F12324032792D5D600B3B0F4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F12324052792D5D600B3B0F4 /* LC_Height-checker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC_Height-checker"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12324082792D5D600B3B0F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F12324132792D63A00B3B0F4 /* LC_Height-checkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LC_Height-checkerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12324152792D63A00B3B0F4 /* LC_Height_checkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC_Height_checkerTests.swift; sourceTree = "<group>"; };
+		F123241A2792D64400B3B0F4 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		F123241C2792D66300B3B0F4 /* SolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12324022792D5D600B3B0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12324102792D63A00B3B0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F12323FC2792D5D600B3B0F4 = {
+			isa = PBXGroup;
+			children = (
+				F12324072792D5D600B3B0F4 /* LC_Height-checker */,
+				F12324142792D63A00B3B0F4 /* LC_Height-checkerTests */,
+				F12324062792D5D600B3B0F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F12324062792D5D600B3B0F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12324052792D5D600B3B0F4 /* LC_Height-checker */,
+				F12324132792D63A00B3B0F4 /* LC_Height-checkerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12324072792D5D600B3B0F4 /* LC_Height-checker */ = {
+			isa = PBXGroup;
+			children = (
+				F12324082792D5D600B3B0F4 /* main.swift */,
+				F123241A2792D64400B3B0F4 /* Solution.swift */,
+			);
+			path = "LC_Height-checker";
+			sourceTree = "<group>";
+		};
+		F12324142792D63A00B3B0F4 /* LC_Height-checkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F12324152792D63A00B3B0F4 /* LC_Height_checkerTests.swift */,
+				F123241C2792D66300B3B0F4 /* SolutionTests.swift */,
+			);
+			path = "LC_Height-checkerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12324042792D5D600B3B0F4 /* LC_Height-checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F123240C2792D5D600B3B0F4 /* Build configuration list for PBXNativeTarget "LC_Height-checker" */;
+			buildPhases = (
+				F12324012792D5D600B3B0F4 /* Sources */,
+				F12324022792D5D600B3B0F4 /* Frameworks */,
+				F12324032792D5D600B3B0F4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LC_Height-checker";
+			productName = "LC_Height-checker";
+			productReference = F12324052792D5D600B3B0F4 /* LC_Height-checker */;
+			productType = "com.apple.product-type.tool";
+		};
+		F12324122792D63A00B3B0F4 /* LC_Height-checkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12324172792D63A00B3B0F4 /* Build configuration list for PBXNativeTarget "LC_Height-checkerTests" */;
+			buildPhases = (
+				F123240F2792D63A00B3B0F4 /* Sources */,
+				F12324102792D63A00B3B0F4 /* Frameworks */,
+				F12324112792D63A00B3B0F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LC_Height-checkerTests";
+			productName = "LC_Height-checkerTests";
+			productReference = F12324132792D63A00B3B0F4 /* LC_Height-checkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12323FD2792D5D600B3B0F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F12324042792D5D600B3B0F4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F12324122792D63A00B3B0F4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F12324002792D5D600B3B0F4 /* Build configuration list for PBXProject "LC_Height-checker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12323FC2792D5D600B3B0F4;
+			productRefGroup = F12324062792D5D600B3B0F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12324042792D5D600B3B0F4 /* LC_Height-checker */,
+				F12324122792D63A00B3B0F4 /* LC_Height-checkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12324112792D63A00B3B0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12324012792D5D600B3B0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F123241B2792D64400B3B0F4 /* Solution.swift in Sources */,
+				F12324092792D5D600B3B0F4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F123240F2792D63A00B3B0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F123241D2792D66300B3B0F4 /* SolutionTests.swift in Sources */,
+				F12324162792D63A00B3B0F4 /* LC_Height_checkerTests.swift in Sources */,
+				F123241E2792D68900B3B0F4 /* Solution.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F123240A2792D5D600B3B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F123240B2792D5D600B3B0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F123240D2792D5D600B3B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F123240E2792D5D600B3B0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F12324182792D63A00B3B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Height-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F12324192792D63A00B3B0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.LC-Height-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12324002792D5D600B3B0F4 /* Build configuration list for PBXProject "LC_Height-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F123240A2792D5D600B3B0F4 /* Debug */,
+				F123240B2792D5D600B3B0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F123240C2792D5D600B3B0F4 /* Build configuration list for PBXNativeTarget "LC_Height-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F123240D2792D5D600B3B0F4 /* Debug */,
+				F123240E2792D5D600B3B0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12324172792D63A00B3B0F4 /* Build configuration list for PBXNativeTarget "LC_Height-checkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12324182792D63A00B3B0F4 /* Debug */,
+				F12324192792D63A00B3B0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F12323FD2792D5D600B3B0F4 /* Project object */;
+}
