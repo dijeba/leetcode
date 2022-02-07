@@ -54,3 +54,45 @@ class Solution {
         return previous
     }
 }
+
+/*
+
+ Another solution (I think it's better). It's implemented with a Stack with LinkedList (I did it in the second review, no help)
+ */
+
+class Solution2 {
+    private var stack: ListNode?
+    private var headStack: ListNode?
+
+    func reverseList(_ head: ListNode?) -> ListNode? {
+        guard let head = head else {
+            return nil
+        }
+
+        push(head.val)
+
+        var node: ListNode? = head
+
+        while let nextVal = node?.next?.val {
+            push(nextVal)
+            node = node?.next
+        }
+
+        return headStack
+    }
+
+    private func push(_ val: Int) {
+        let newNode = ListNode(val)
+
+        if stack?.val == nil {
+            stack = newNode
+            headStack = newNode
+        } else {
+            newNode.next = headStack
+            headStack = newNode
+
+            //headStack?.next = newNode
+            //headStack = newNode
+        }
+    }
+}
